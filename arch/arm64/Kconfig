@@ -2157,6 +2157,13 @@ config SALAMI_DTB
 	help
 	  Only include Oplus salami device specific device tree.
 
+config BENZ_DTB
+	select OPLUS_DEVICE_DTBS
+	default n
+	bool "Oplus benz device DTB"
+	help
+	  Only include Oplus benz device specific device tree.
+
 endmenu
 
 config SYSVIPC_COMPAT
